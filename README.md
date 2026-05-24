@@ -1,16 +1,103 @@
-# React + Vite
+# ✅ React Todo App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+> A modern Todo application built using React and Vite that helps users manage daily tasks efficiently with persistent local storage support.
 
-Currently, two official plugins are available:
+React Todo App is a frontend web application that allows users to create, update, complete, and delete todos in a clean and responsive interface. The application uses React Context API for state management and LocalStorage for data persistence.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Live Demo
 
-## React Compiler
+🌐 Live Website: https://react-todo-app-six-liart.vercel.app
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🔗 GitHub Repository
 
-## Expanding the ESLint configuration
+💻 GitHub: https://github.com/ayushraj78088/react-todo-app
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📸 Screenshots
+
+### Todo Application Interface
+
+![Todo App Screenshot](./screenshots/todo-app.png)
+
+## ✨ Features
+
+- ➕ Add new todos
+- ✏️ Edit existing todos
+- ✅ Mark todos as completed
+- ❌ Delete todos
+- 💾 Persistent storage using LocalStorage
+- ⚡ Fast and responsive UI
+- 🎨 Clean UI built with TailwindCSS
+- 🧠 State management using Context API
+
+## 🛠️ Tech Stack
+
+### Frontend
+
+- React
+- Vite
+- JavaScript
+- TailwindCSS
+
+### State Management
+
+- React Context API
+
+### Storage
+
+- LocalStorage
+
+## 📂 Project Structure
+
+```bash
+src/
+│
+├── components/
+│   ├── TodoForm.jsx
+│   └── TodoItem.jsx
+│
+├── contexts/
+│   ├── TodoContext.jsx
+│   └── index.js
+│
+├── App.jsx
+└── main.jsx
+```
+
+## 💻 Running the Project Locally
+
+To run this project on your local machine, follow these steps:
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/ayushraj78088/react-todo-app.git
+cd react-todo-app
+```
+
+### 2. Install Dependencies
+
+```bash
+npm install
+```
+
+### 3. Start the Development Server
+
+```bash
+npm run dev
+```
+
+The app should now be running on:
+
+```bash
+http://localhost:5173
+```
+
+## 🏗️ Build for Production
+
+```bash
+npm run build
+```
+
+---
+
+_If you like this project, please consider giving it a ⭐ on GitHub!_
